@@ -1,5 +1,4 @@
-*::before,
-*::after {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +13,7 @@
   margin-left: 2.5rem;
 
 }
-img{
+.card img{
   width: 90%;
 }
 
