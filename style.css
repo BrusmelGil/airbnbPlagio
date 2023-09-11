@@ -4,3 +4,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+.slider{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider button{
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  color: #24292E;
+  cursor: pointer;
+  list-style: none;
+  width: 80px;
+  height: 50px;
+
+}
+
+.img-btn{
+  width: 2%;
+}
+
+.icon{
+  width: 3%;
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+  margin-left: 2.5rem;
+
+}
+.card img{
+  width: 90%;
+}
+
+.button-mas {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  height: 50px;
+  width: 160px;
+}
+.mas {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+  margin-top: 20px; 
+}
+h3{
+  display: block;
+}
