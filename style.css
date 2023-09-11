@@ -4,3 +4,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.footerPrincipal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+}
+
+.imgGlobal img {
+
+  width: 2%;
+  display: flex;
+  justify-content: right;
+  display: flex;
+    text-align: right;
+
+}
+
+.imgEuro img {
+  width: 2%;
+  background-size: contain;
+  display: flex;
+    text-align: right;
+}
+
+.imgfacetwiins img {
+
+  width: 2%;
+  display: flex;
+ text-align: right;
+
+}
+
+.finalDeTodo p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.finalDeTodo ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.finalDeTodo li {
+
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-align: left;
+  display: flex;
+}
