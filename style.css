@@ -4,6 +4,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+.slider{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider button{
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  color: #24292E;
+  cursor: pointer;
+  list-style: none;
+  width: 80px;
+  height: 50px;
+
+}
+
+.img-btn{
+  width: 2%;
+}
+
+.icon{
+  width: 3%;
+}
 
 .main-content{
   display: grid;
@@ -14,7 +40,7 @@
   margin-left: 2.5rem;
 
 }
-img{
+.card img{
   width: 90%;
 }
 
