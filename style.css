@@ -3,6 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+.nav {
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.fondoBlanco {
+  background-color: white;
+  border-width:0px;
+}
+.bordeGris {
+  background-color: white;
+  border-color: grey;
+  border-width:thin;
+  height: 7vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  font: bold;
+}
+.redondoIzqda {
+  border-radius: 20px 0px 0px 20px;
+}
+.redondoDcha {
+  border-radius: 0px 20px 20px 0px;
+  padding-right: 50px;
+}
+.redondear {
+  border-radius: 20px 20px 20px 20px;
+}
+
 
 .main-content{
   display: grid;
