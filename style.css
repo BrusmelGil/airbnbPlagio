@@ -1,5 +1,4 @@
-*::before,
-*::after {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,6 +6,9 @@
 
 .cabecera {
   padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -32,6 +34,8 @@
 }
 
 .bordeGris {
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
   border-color: grey;
   border-width: thin;
