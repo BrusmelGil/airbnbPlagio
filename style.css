@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.container-navbar img{
+.card-navbar img{
   height: 8vh;
   cursor: pointer;
 }
