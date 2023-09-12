@@ -1,58 +1,44 @@
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .footerPrincipal {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
-  color: black;
-  padding: 20px;
 }
 
-.imgGlobal img {
+.icon-footer {
+  width: 20px; 
+  height: 20px;
+}
 
-  width: 2%;
+.finalDeTodo {
   display: flex;
-  justify-content: right;
+  justify-content:space-between;
+  align-items: center; 
+  flex-wrap: nowrap;
+}
+
+.list-footer {
+  padding: 0; 
+  margin: 0; 
   display: flex;
-    text-align: right;
-
-}
-
-.imgEuro img {
-  width: 2%;
-  background-size: contain;
-  display: flex;
-    text-align: right;
-}
-
-.imgfacetwiins img {
-
-  width: 2%;
-  display: flex;
- text-align: right;
-
-}
-
-.finalDeTodo p {
-  font-size: 12px;
-  text-align: left;
-}
-
-.finalDeTodo ul {
   list-style-type: none;
-  padding: 0;
-  text-align: left;
 }
 
-.finalDeTodo li {
+.list-footer li {
+  margin-right: 20px; 
+}
 
-  font-size: 12px;
-  margin-bottom: 5px;
-  text-align: left;
+.list-icons {
   display: flex;
+  align-items: center; 
+  margin-left: auto; 
 }
+
+.list-icons  img {
+  margin-right: 20px; 
+}
+
+.list-icons p{
+  margin-right: 10px; 
+
+}
+
+
